@@ -11,9 +11,9 @@ def load_file(path):
 
 def main():
     manager = FireBaseManager(
-        certificate_path='caminho do arquivo que contém o certificado de ',
+        certificate_path='caminho do arquivo que contém o certificado do firebase',
         url='url do banco',
-        key='chave para criptografaro conteúdo'
+        key='chave para criptografar o conteúdo'
     )
 
     while True:
